@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <p id="home-score">0</p>
+        <button onclick="increaseHomeScoreOne()">+ 1</button>
+        <button onclick="increaseHomeScoreTwo()">+ 2</button>
+        <button onclick="increaseHomeScoreTree()">+ 3</button>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <p id="guest-score">0</p>
+        <button onclick="increaseGuestScoreOne()">+ 1</button>
+        <button onclick="increaseGuestScoreTwo()">+ 2</button>
+        <button onclick="increaseGuestScoreTree()">+ 3</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
